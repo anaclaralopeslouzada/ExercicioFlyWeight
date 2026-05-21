@@ -36,7 +36,7 @@ namespace JogoArvores
         public int TotalEspeciesCriadas() => _especies.Count;
     }
 
-    // ESTADO EXTRÍNSECO (O Contexto - Características mutáveis de cada árvore) 
+    // ESTADO EXTRÍNSECO (Características mutáveis de cada árvore) 
     public class ArvoreIndividual
     {
         // Posição e dimensões únicas de cada árvore
@@ -57,12 +57,6 @@ namespace JogoArvores
             Diametro = diametro;
             NumeroGalhos = galhos;
             Especie = especie;
-        }
-
-        public void Renderizar()
-        {
-            // Simulação de renderização no motor de jogo 2D
-            // Console.WriteLine($"Desenhar {Especie.Nome} em ({X},{Y}) com Altura: {Altura}m, {NumeroGalhos} galhos.");
         }
     }
 
