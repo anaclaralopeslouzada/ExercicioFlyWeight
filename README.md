@@ -23,7 +23,8 @@ Quando você roda o programa no terminal, ele faz o cálculo matemático exato c
 
 **O resultado final no console mostra uma economia de mais de 90% de memória RAM!**
 
-## Como testar e rodar
-Para rodar a simulação e ver o relatório de memória no terminal, é só abrir a pasta no VS Code e digitar:
+## Como rodar o código:
+O repositório já contém o arquivo de projeto (`.csproj`). Para executar, basta abrir a pasta no terminal e digitar:
+
 ```bash
 dotnet run
